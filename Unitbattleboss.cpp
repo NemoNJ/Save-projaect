@@ -570,6 +570,7 @@ void Player::useGrenade(Boss &Boss)
     }
     else
     {
+        system("cls");
         cout << "You Don't have Grenade\n";
     }
 }
@@ -591,6 +592,7 @@ void Player::useMedkit()
     }
     else
     {
+        system("cls");
         cout << "You Don't Have Medkits\n";
     }
 }
